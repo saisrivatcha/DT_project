@@ -19,6 +19,7 @@ import RegisterPage from './pages/RegisterPage';
 import ProductsPage from './pages/ProductsPage';
 import CartPage from './pages/CartPage';
 import ProfilePage from './pages/Profile';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path='/profile' element={<ProfilePage />} />
+              <Route path="/about" element={<AboutPage />} />
               {/* Add more routes as needed */}
             </Routes>
           </main>
