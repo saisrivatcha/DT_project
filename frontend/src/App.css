@@ -1,0 +1,103 @@
+/* Reset root styles */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #28a745;
+}
+
+a:hover {
+  color: #218838;
+}
+
+/* Header Styles */
+.navbar-brand {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+/* Product Card Styles */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #28a745;
+  font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}
+
+/* Social Icons */
+.social-icons a {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+/* Custom Spinner */
+.spinner-border {
+  border-width: 0.25em;
+}
+
+/* Cart Badge */
+.badge {
+  position: relative;
+  top: -2px;
+}
+
+/* Form Controls */
+.form-control:focus, .form-select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+/* Buttons */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
